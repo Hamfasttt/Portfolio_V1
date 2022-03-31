@@ -1,0 +1,449 @@
+body{
+	background-image: url(cube_loop.gif);
+	background-attachment: fixed;
+}
+#entete {
+	color: white;
+	font-family:"CaviarDreams";
+ 	font-size: 75px;
+  	background: #1d9099;
+  	width: 900px;
+  	height: 100px;
+  	text-align: center;
+  	margin-left: auto;
+  	margin-right: auto;
+  	border-radius: 8px;
+  	box-shadow: 0 0 5px black;
+ }
+#cases {
+	display: table;
+	border-spacing: 100px 0px;
+	position: static;
+}
+#bouton {
+	margin-top: 20px;
+	width: 900px;
+	height: 100px;
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+a {	
+	display: inline-block;
+	width: 150px;
+	line-height: 50px;
+	text-align: center;
+	background:#1d9099;
+	color: white;
+	border-radius: 8px;
+	box-shadow: 0 0 5px black;
+	font-family: "CaviarDreams";
+	text-decoration: none;
+}
+#bouton a:hover {
+	transition:background 0.5s ease;
+	background: #e79c10;
+}
+@font-face {
+	font-family: "CaviarDreams" ;
+	src: url(police/CaviarDreams.ttf);
+}
+#contenuacceuil {
+	transition: background-color 0.5s ease;
+	display: inline-block;
+	font-size: 100%;
+	font-family: "CaviarDreams";
+	width: 49%;
+	height: 30%;
+	color: white;
+	border-spacing: 10px;
+	padding: 3%;
+	text-align: justify;
+	margin-left: auto;
+  	margin-right: auto;
+  	border-radius: 8px;
+}
+#contenuacceuil:hover {
+	color: white;
+	background: #1c929a;
+	border-radius: 8px;
+	box-shadow: 0 0 5px black;
+}
+#contenuprojet {
+	transition: background-color 0.5s ease;
+	display: inline-block;
+	font-size: 100%;
+	font-family: "CaviarDreams";
+	color: white;
+	border-spacing: 10px;
+	padding: 3%;
+	text-align: justify;
+	margin-left: auto;
+  	margin-right: auto;
+  	border-radius: 8px;
+}
+#contenuprojet:hover {
+	color: white;
+	background: #1c929a;
+	border-radius: 8px;
+	box-shadow: 0 0 5px black;
+}
+#contenutitre {
+	height: 50px;
+	display: inline-block;
+	font-size: 100%;
+	font-family: "CaviarDreams";
+	color: white;
+	border-spacing: 10px;
+	padding: 3%;
+	text-align: left;
+	margin-left: auto;
+  	margin-right: auto;
+  	margin-bottom: -20px;
+  	border-radius: 8px;
+}
+video {
+	width:900px;
+	border-radius: 8px;
+	box-shadow: 0 0 5px black;
+}
+#badge {
+	width: 400px;
+	height: 100px;
+	border-radius: 8px;
+	box-shadow: 0 0 5px black;
+}
+#emote {
+	width: 250px;
+	border-radius: 8px;
+	box-shadow: 0 0 5px black;
+	}
+#banniere{
+	width: 900px;
+	border-radius: 8px;
+	box-shadow: 0 0 5px black;
+}
+#contenucontact {
+	background: #1c929a;
+	display: inline-block;
+	font-size: 100%;
+	font-family: "CaviarDreams";
+	width: 311px;
+	height: 145px;
+	color: white;
+	border-spacing: 10px;
+	padding: 3%;
+	text-align: justify;
+	margin-left: auto;
+  	margin-right: auto;
+  	border-radius: 8px;
+  	box-shadow: 0 0 5px black;
+}
+#contenucoordonnéestel{
+	border: 10px solid #262626;
+	background: #262626;
+	display: inline-block;
+	font-size: 115%;
+	font-family: "CaviarDreams";
+	width: 260px;
+	height: 30px;
+	color: white;
+	border-spacing: 10px;
+	padding-top: 4%;
+	padding-right: 5%;
+	padding-left: 5%;
+	text-align: right;
+	margin-left: auto;
+  	margin-right: auto;
+  	border-radius: 8px;
+  	background-image: url(tel_bleu.png);
+  	background-size: contain;
+	background-repeat: no-repeat;
+	transition: background-image 0.5s ease;
+}
+#contenucoordonnéestel:hover{
+  	background-image: url(tel_jaune.png);
+  	background-size: contain;
+	background-repeat: no-repeat;
+}
+#contenucoordonnéesmail{
+	border: 10px solid #262626;
+	background: #262626;
+	display: inline-block;
+	font-size: 115%;
+	font-family: "CaviarDreams";
+	width: 260px;
+	height: 30px;
+	color: white;
+	border-spacing: 10px;
+	padding-top: 4%;
+	padding-left: 5%;
+	padding-right: 5%;
+	text-align: right;
+	margin-left: auto;
+  	margin-right: auto;
+  	border-radius: 8px;
+  	background-image: url(mail_bleu.png);
+  	background-size: contain;
+	background-repeat: no-repeat;
+	transition: background-image 0.5s ease;
+}
+#contenucoordonnéesmail:hover{
+  	background-image: url(mail_jaune.png);
+  	background-size: contain;
+	background-repeat: no-repeat;
+}
+.paddingmail{
+	padding-top: 2.5px;
+}
+.passingtel{
+	padding-bottom: 2.5px;
+}
+#photoprofil {
+	width: 28%;
+	line-height: 18px;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	border-radius: 8px;
+	box-shadow: 0 0 5px black;
+}
+#contenudivisible {
+	margin-top: 20px;
+	width: 890px;
+	line-height: 18px;
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.boutoncv {
+	width: 308px;
+	height: 143px;
+	background: #262626;
+	border-radius: 8px;
+	display: flex;
+	justify-content: space-around;
+}
+.imagecv {
+	margin-top: 20px;
+	border: none;
+	background: #262626;
+	width: 100px;
+	height: 100px;
+	background-image: url(c.v.bleu.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	transition: background-image 0.5s ease;
+	box-shadow: none;
+}
+.imagecv:hover {
+	background-image: url(c.v.png);
+  	background-size: contain;
+	background-repeat: no-repeat;
+}
+#pictops {
+	background-image: url(Ps.png),
+	linear-gradient(to top, rgba(255,255,255,.0001) 90%, #1d9099 90%);
+  	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: #1d9099;
+	width: 150px;
+	height: 150px;
+	transition: background-color 0.5s ease;
+}
+#pictops:hover {
+	background-color: #e79c10;
+}
+#pictoil {
+	background-image: url(Ai.png),
+	linear-gradient(to top, rgba(255,255,255,.0001) 80%, #1d9099 80%);
+  	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: #1d9099;
+	width: 150px;
+	height: 150px;
+	transition: background-color 0.5s ease;
+}
+#pictoil:hover {
+	background-color: #e79c10;
+}
+#pictoin {
+	background-image: url(Id.png),
+	linear-gradient(to top, rgba(255,255,255,.0001) 75%, #1d9099 75%);
+  	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: #1d9099;
+	width: 150px;
+	height: 150px;
+	transition: background-color 0.5s ease;
+}
+#pictoin:hover {
+	background-color: #e79c10;
+}
+#pictohtml {
+	background-image: url(html.png),
+	linear-gradient(to top, rgba(255,255,255,.0001) 45%, #1d9099 45%);
+  	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: #1d9099;
+	width: 150px;
+	height: 150px;
+	transition: background-color 0.5s ease;
+}
+#pictohtml:hover {
+	background-color: #e79c10;
+}
+#pictocss {
+	background-image: url(css.png),
+	linear-gradient(to top, rgba(255,255,255,.0001) 40%, #1d9099 40%);
+  	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: #1d9099;
+	width: 150px;
+	height: 150px;
+	transition: background-color 0.5s ease;
+}
+#pictocss:hover {
+	background-color: #e79c10;
+}
+#pictoshot {
+	background-image: url(shotcut.png),
+	linear-gradient(to top, rgba(255,255,255,.0001) 60%, #1d9099 60%);
+  	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: #1d9099;
+	width: 150px;
+	height: 150px;
+	transition: background-color 0.5s ease;
+}
+#pictoshot:hover {
+	background-color: #e79c10;
+}
+#pictoclip {
+	background-image: url(clip.png),
+	linear-gradient(to top, rgba(255,255,255,.0001) 65%, #1d9099 65%);
+  	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: #1d9099;
+	width: 150px;
+	height: 150px;
+	transition: background-color 0.5s ease;
+}
+#pictoclip:hover {
+	background-color: #e79c10;
+}
+/* TIMELINE */
+/*Propriétés appliqué à tout mon bloc par la div ul*/
+.bloc ul {
+	font-family: "CaviarDreams";
+ 	list-style: none;
+  	position: absolute;
+  	top: 900px;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	padding: 1px 100px;
+  	color: #fff;
+}
+/*Propriétés appliqué à la balise li avec l'hérédité de ul */
+.bloc ul li {
+  position: relative;
+  margin-left: 30px ;
+  padding: 14px;
+  border-radius: 6px;
+  width: 250px;
+}
+/*Propriétés appliqués lorsqu'on passe la souris sur le bloc */
+.bloc ul li:hover {
+	transition:background 0.5s ease;
+	background: #1d9099;
+	box-shadow: 0 0 5px black;
+}
+/*Marge appliqué à tout mes blocs sauf le premier */
+.bloc ul li:not(:first-child) {
+  margin-top: 60px;
+}
+/*Ligne entre mes points ">" signifie à l'intérieur de*/
+.bloc ul li > span {
+  width: 2px;
+  height: 100%;
+  background: #fff;
+  left: -30px;
+  top: -3px;
+  position: absolute;
+}
+/*Petits ronds*/
+.bloc ul li > span:before, .bloc ul li > span:after {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  position: absolute;
+  background: #e79c10;
+  left: -5px;
+  top: 0;
+}
+/*Hauteur point en bas de la ligne qui s'applique juste à span:after */
+.bloc ul li span:after {
+  top: 100%;
+}
+/* Marge ne concernant que les blocs */
+.bloc ul li > div {
+  margin-left: 10px;  
+}
+/* Taille de police ne s'appliquant qu'a titre et mission */
+.bloc div .titre, .bloc div .mission {
+  font-weight: 600;
+  font-size: 12px;
+}
+/* Taille de police ne s'appliquant qu'a lieu */
+.bloc div .lieu {
+  font-size: 12px;
+}
+/* Marges nes'appliquant qu'aux div dans div dansc seulement titre, lieu et mission */
+.bloc div > div {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+/* Propriétés appliqué à au span de date compris dans les span de bloc */
+.bloc span.date span {
+  text-align: right;
+  width: 200px;
+  position: absolute;
+  font-size: 14px;
+  right: 22px;
+  font-weight: bold;
+}
+/* Hauteur du premier span de span de date */
+.bloc span.date span:first-child {
+  top: -2px;
+}
+/* Hauteur du dernier span de span de date */
+.bloc span.date span:last-child {
+  top: 96%;
+}
+/* footers */
+footer{
+	background: #1d9099;
+	font-size: 100%;
+	font-family: "CaviarDreams";
+	width: 898px;
+	color: white;
+	border-spacing: 10px;
+	padding: 1px;
+	text-align: center;
+	margin-left: auto;
+  	margin-right: auto;
+  	border-radius: 8px;
+  	box-shadow: 0 0 5px black;
+}
+.footerparcours{
+	margin-top: 1315px;
+}
+.footeraccueil{
+	margin-top: 100px;
+}
